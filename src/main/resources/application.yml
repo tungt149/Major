@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/gastore
+    username: postgres
+    password: admin
+  jpa:
+    show-sql: true
+    generate-ddl: true
+    hibernate:
+      ddl-auto: update
+  jackson:
+    serialization:
+      fail-on-empty-beans: false
+        security:    oauth2:      client:        registration:          google:
+            client-id: 316023962945-cv64sgq6e3dc4grvcvvn8v4du4l4nevh.apps.googleusercontent.com
+            client-secret: GWM2Im0yPpGxja7AMkPiVFrV  output:    ansi:      enabled: always
